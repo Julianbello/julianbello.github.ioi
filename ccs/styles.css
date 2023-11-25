@@ -1,0 +1,82 @@
+
+/* #################################################################
+R E S E T
+################################################################# */
+ul,
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+body{
+overflow-x: hidden;
+margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block  ;
+}
+ .wrapper{
+    padding: 0px 250px;
+
+
+ }
+/* #################################################################
+H E A D E R 
+################################################################# */
+header{
+    background-color: #FF0000;
+
+}
+.navegacion{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:25px 0px;
+}
+
+.navegacion img{
+width: 200px;
+}
+
+.navegacion ul{
+    display: flex;
+    gap:40px;
+}
+/* #################################################################
+M A I N
+################################################################# */
+.caja{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.cajita{
+background-color: #00FFFF;
+text-align: center;
+
+}
+
+.cajita a{
+color: black;
+
+}
+/* #################################################################
+F O O T E R 
+################################################################# */
+
+footer{
+        background-color: #000;
+        text-align: center;
+        padding: 35px 0px 20px 0px;
+        position: relative;
+        color: white;
+        font-size: x-large;
+        margin-top: 100px;
+     
+}

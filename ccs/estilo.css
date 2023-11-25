@@ -1,0 +1,13 @@
+.navegacion{
+    display: flex;
+    background-color: #FF0000;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+.logou{
+    width: 300px;
+}
